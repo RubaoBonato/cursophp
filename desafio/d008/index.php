@@ -22,11 +22,11 @@
     <section>
         <h2>Resultado Final</h2>
         <?php
-        $rq = $num ** (1/2);
-        $rc = $num ** (1/3);
-        echo "<p>Analisando o número <strong>$numero</strong> temos </p>";
-        echo "<lu><li>A sua raiz quadrada é ";
-        ?>
+        $rq = $numero ** (1/2);
+        $rc = $numero ** (1/3);
+        echo "<p>Analisando o <strong>número $numero</strong>, temos </p>";
+        echo "<ul><li>A sua raiz quadrada é <strong>". number_format($rq, 3, ",",".") ."</strong></li>";
+        echo "<li>A sua Raiz cúbica de <strong>". number_format($rc, 3, ",",".") ."</strong></li></ul>";        ?>
     </section>
 </body>
 </html>
