@@ -35,7 +35,7 @@
         $ma = ($valor1 + $valor2) / 2;
         $mp = ($valor1 * $peso1 + $valor2 * $peso2) / ($peso1 + $peso2);
         ?>
-        <h2>Calculo de Médias</h2>
+        <h2>Cálculo de Médias</h2>
         <p>Analisando os Valores <?=$valor1?> e <?=$valor2?>:</p>
         <ul>
             <li>A <strong>Média Aritmética Simples</strong> entre os valores é igual a <?=number_format($ma,2,",", ".")?>.</li>
